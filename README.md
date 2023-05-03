@@ -8,11 +8,9 @@
 
 by 
 
-Ruchita Bhadre Harshil Thakkar
+Ruchita Bhadre and Harshil Thakkar
 
-Course: Design of Intelligent Sensor Networks (MIE1050) Course Instructor: Dr. Ardevan Bakhtari 
 
-Fall 2022
 
 **Table of contents**
 
@@ -21,8 +19,8 @@ Table of Contents
 [***Monitoring harmful emissions, noise levels and fuel leakages in parking lots*** .... 1 ](#_page0_x69.00_y352.00)[Introduction ........................................................................................................... 3 ](#_page2_x69.00_y72.00)[Literature Review ................................................................................................... 4 ](#_page3_x69.00_y72.00)[Objectives .............................................................................................................. 5 ](#_page4_x69.00_y72.00)[Methodology ......................................................................................................... 6 ](#_page5_x69.00_y72.00)
 
 1. [Gas sensors ..................................................................................................... 6 ](#_page5_x69.00_y231.00)
-1. [Temperature/Humidity sensor ......................................................................... 8 ](#_page7_x69.00_y368.00)
-1. [Mic ............................................................................................................... 10 ](#_page9_x69.00_y242.00)
+2. [Temperature/Humidity sensor ......................................................................... 8 ](#_page7_x69.00_y368.00)
+3. [Mic ............................................................................................................... 10 ](#_page9_x69.00_y242.00)
 
 [Pattern Recognition ............................................................................................. 11 ](#_page10_x69.00_y426.00)[Results ................................................................................................................. 15 ](#_page14_x69.00_y72.00)[Limitations ........................................................................................................... 18 ](#_page17_x69.00_y231.00)[Conclusion ........................................................................................................... 19 ](#_page18_x69.00_y72.00)[References ........................................................................................................... 20 ](#_page19_x69.00_y72.00)
 
@@ -34,20 +32,10 @@ Another  critical  environmental  parameter  in  these  parking  garages,  which
 
 <a name="_page3_x69.00_y72.00"></a>**Literature Review** 
 
-In  parking  structures,  CO  and  NO  are  two  of  the  most  abundant  airborne 
-
-2
-
-contaminants that pose significant safety concerns. The CO and NO levels must be 
-
-2
-
+In  parking  structures,  CO  and  NO<sub>2</sub>  are  two  of  the  most  abundant  airborne contaminants that pose significant safety concerns. The CO and NO<sub>2</sub> levels must be 
 controlled or ventilated when concentrations approach unsafe levels. One of the existing products - an E3Point by Honeywell utilizes cutting-edge technology in order to accurately and reliably monitor carbon monoxide and Nitrogen Dioxide (diesel fumes) levels. [4]
 
-Most underground garages (UPGs) still use natural ventilation systems. Thus, the air quality of UPGs under natural ventilation has become a hotspot. Compared with the temperature, humidity, particulate matter (PM) and biological particles that are often studied in previous research on indoor pollutants (Liu et al., 2018a; Liu et al., 2018b), it is necessary to consider the impact of traffic volume on the indoor pollution of UPGs. The pollutants including Carbon Monoxide (CO), Carbon Dioxide (CO), 
-
-2
-
+Most underground garages (UPGs) still use natural ventilation systems. Thus, the air quality of UPGs under natural ventilation has become a hotspot. Compared with the temperature, humidity, particulate matter (PM) and biological particles that are often studied in previous research on indoor pollutants (Liu et al., 2018a; Liu et al., 2018b), it is necessary to consider the impact of traffic volume on the indoor pollution of UPGs. The pollutants including Carbon Monoxide (CO), Carbon Dioxide (CO<sub>2</sub>), 
 Nitrogen Dioxide (NO), particulate matter (PM), and volatile organic compounds 2
 
 (VOCs), etc. generated from automobiles would be concentrated and accumulated in this enclosed or semi-enclosed micro-environments. [5] 
@@ -81,15 +69,9 @@ In order to determine the quality of the environment inside a confined space, be
 1. Gas<a name="_page5_x69.00_y231.00"></a> sensors 
 - Sensor module: MQ9 
 
-Hanwei Electronics’ MQ-9 is a low-cost sensor with excellent gas sensitivity for a variety of gases, including Carbon Monoxide and combustible gases. It can also detect Methane and Liquefied Petroleum Gas (LPG). It is sensitive to detect a concentration of 10 – 1000 ppm of CO and 100 – 10000 ppm of combustible gas. [6] The sensor is made of a micro Al O ceramic tube, a Tin 
+Hanwei Electronics’ MQ-9 is a low-cost sensor with excellent gas sensitivity for a variety of gases, including Carbon Monoxide and combustible gases. It can also detect Methane and Liquefied Petroleum Gas (LPG). It is sensitive to detect a concentration of 10 – 1000 ppm of CO and 100 – 10000 ppm of combustible gas. [6] The sensor is made of a micro Al<sub>2</sub>O<sub>3</sub> ceramic tube, a Tin Dioxide sensitive, a measurement electrode and a heater. 
 
-2 3 
-
-Dioxide sensitive, a measurement electrode and a heater. 
-
-MQ-9 takes an input voltage of 5V (DC) and consumes approximately 150mA at peak. The sensor has two parts in its circuit. A heating voltage (a steady high of 5V and a low of 1.5 V) can be applied to V and the test voltage to V 
-
-H  c (5 V) (as shown in Fig. 3) 
+MQ-9 takes an input voltage of 5V (DC) and consumes approximately 150mA at peak. The sensor has two parts in its circuit. A heating voltage (a steady high of 5V and a low of 1.5 V) can be applied to V<sub>H</sub> and the test voltage to V<sub>c</sub> (5 V) (as shown in Fig. 3) 
 
 ![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.004.png)
 
