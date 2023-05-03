@@ -1,10 +1,10 @@
-                         ﻿![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.001.png)
+ ﻿![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.001.png)
 
-                                            Project Report
+   Project Report
 
-                 <a name="_page0_x69.00_y352.00"></a>***Monitoring harmful emissions, noise levels and fuel*** 
+   <a name="_page0_x69.00_y352.00"></a>***Monitoring harmful emissions, noise levels and fuel*** 
 
-                                            ***leakages in parking lots***
+   ***leakages in parking lots***
 
 by 
 
@@ -36,9 +36,7 @@ In  parking  structures,  CO  and  NO<sub>2</sub>  are  two  of  the  most  abun
 controlled or ventilated when concentrations approach unsafe levels. One of the existing products - an E3Point by Honeywell utilizes cutting-edge technology in order to accurately and reliably monitor carbon monoxide and Nitrogen Dioxide (diesel fumes) levels. [4]
 
 Most underground garages (UPGs) still use natural ventilation systems. Thus, the air quality of UPGs under natural ventilation has become a hotspot. Compared with the temperature, humidity, particulate matter (PM) and biological particles that are often studied in previous research on indoor pollutants (Liu et al., 2018a; Liu et al., 2018b), it is necessary to consider the impact of traffic volume on the indoor pollution of UPGs. The pollutants including Carbon Monoxide (CO), Carbon Dioxide (CO<sub>2</sub>), 
-Nitrogen Dioxide (NO), particulate matter (PM), and volatile organic compounds 2
-
-(VOCs), etc. generated from automobiles would be concentrated and accumulated in this enclosed or semi-enclosed micro-environments. [5] 
+Nitrogen Dioxide (NO<sub>2</sub>), particulate matter (PM), and volatile organic compounds (VOCs), etc. generated from automobiles would be concentrated and accumulated in this enclosed or semi-enclosed micro-environments. [5] 
 
 ![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.002.png)
 
@@ -87,15 +85,7 @@ The calibration process of the sensor was based upon:
 
 *Figure 4: Sensitivity characteristics of MQ-9 sensor in various gas concentrations* 
 
-For the purpose of the project, the calibration was conducted synthetically, as creating an environment with 1000 ppm LPG burn or 100 ppm CO, for calibration was infeasible and unsafe. A fixed value of R (= 0.91) was then 
-
-0
-
-chosen to detect the R /R ratio to determine the concentration range of CO 
-
-s 0
-
-present in the environment using the chart in Fig. 4. 
+For the purpose of the project, the calibration was conducted synthetically, as creating an environment with 1000 ppm LPG burn or 100 ppm CO, for calibration was infeasible and unsafe. A fixed value of R<sub>0</sub> (= 0.91) was then chosen to detect the R<sub>s</sub> /R<sub>0</sub> ratio to determine the concentration range of CO present in the environment using the chart in Fig. 4. 
 
 - Sensor Module: MQ2 
 
@@ -103,11 +93,7 @@ Very similar to MQ9, this sensor is a low-cost sensor for detecting a wide range
 
 With quite similar characteristics to CO measurement, MQ-2 was used to detect a high concentration of smoke in a confined space. 
 
-An inference was made based on the R /R ratio with the help of the chart in 
-
-s 0
-
-Fig. 5 
+An inference was made based on the R<sub>s</sub> /R<sub>0</sub> ratio with the help of the chart in Fig. 5 
 
 ![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.006.png)
 
