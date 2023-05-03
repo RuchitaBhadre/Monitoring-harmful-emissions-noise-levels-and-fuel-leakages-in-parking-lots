@@ -38,7 +38,7 @@ controlled or ventilated when concentrations approach unsafe levels. One of the 
 Most underground garages (UPGs) still use natural ventilation systems. Thus, the air quality of UPGs under natural ventilation has become a hotspot. Compared with the temperature, humidity, particulate matter (PM) and biological particles that are often studied in previous research on indoor pollutants (Liu et al., 2018a; Liu et al., 2018b), it is necessary to consider the impact of traffic volume on the indoor pollution of UPGs. The pollutants including Carbon Monoxide (CO), Carbon Dioxide (CO<sub>2</sub>), 
 Nitrogen Dioxide (NO<sub>2</sub>), particulate matter (PM), and volatile organic compounds (VOCs), etc. generated from automobiles would be concentrated and accumulated in this enclosed or semi-enclosed micro-environments. [5] 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.002.png)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.002.png)
 
 Figure 1: E3Point by Honeywell
 
@@ -54,7 +54,7 @@ Below are some of the main functionalities that the system has –
 - Displaying if the space is safe for human users or not\*  
 - Alerting the users (and corresponding authorities) if the concentration of gases or noise reaches a very harmful level 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.003.png)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.003.png)
 
 *Figure 2: Sketch of the projected setup*
 
@@ -71,7 +71,7 @@ Hanwei Electronics’ MQ-9 is a low-cost sensor with excellent gas sensitivity f
 
 MQ-9 takes an input voltage of 5V (DC) and consumes approximately 150mA at peak. The sensor has two parts in its circuit. A heating voltage (a steady high of 5V and a low of 1.5 V) can be applied to V<sub>H</sub> and the test voltage to V<sub>c</sub> (5 V) (as shown in Fig. 3) 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.004.png)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.004.png)
 
 *Figure 3: Test circuit of MQ-9 gas sensor*
 
@@ -81,7 +81,7 @@ The calibration process of the sensor was based upon:
 - 100 ppm of CO 
 - Safe air concentration (e.g., well-ventilated room) 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.005.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.005.jpeg)
 
 *Figure 4: Sensitivity characteristics of MQ-9 sensor in various gas concentrations* 
 
@@ -95,7 +95,7 @@ With quite similar characteristics to CO measurement, MQ-2 was used to detect a 
 
 An inference was made based on the R<sub>s</sub> /R<sub>0</sub> ratio with the help of the chart in Fig. 5 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.006.png)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.006.png)
 
 *Figure 5: Sensitivity characteristics of MQ-2 sensor in various gas concentrations* 
 
@@ -104,7 +104,7 @@ An inference was made based on the R<sub>s</sub> /R<sub>0</sub> ratio with the h
 
 This I2C humidity and temperature sensor by Silicon Labs provides relative humidity and a high accuracy temperature within the ranges of 0-80% RH and -10 to 85 ˚C, respectively. It is a low power consumption (~150 µA at 1.9 to 3.6  V)  sensor  with  a  wide  operating  voltage  range.  [7]  This  sensor  is commonly used in thermostats, indoor weather stations, automotive climate control and defogging devices, and many more. Since the temperature and humidity  ranges  are  within  the  expected  conditions  present  in  a  parking garage, this sensor is an appropriate module to utilize.  The operating ranges of this sensor module are 0 – 100% Rh and -40 - +125 ˚C.  
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.007.png)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.007.png)
 
 *Figure 6: Typical circuit of the humidity & temperature measurement [8]*
 
@@ -134,15 +134,15 @@ This analogue microphone sensor is an omnidirectional mic. It is compatible with
 
 For the detection of noise, a difference between the max and min of the sound signal is used (Fig. 7). Larger the difference, the louder the sound is. (Fig. 8a & 8b) 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.008.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.008.jpeg)
 
 *Figure 7: Difference measurement between the max and min of the signal [8]* 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.009.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.009.jpeg)
 
 *Figure 8a: Quieter sound [8]* 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.010.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.010.jpeg)
 
 *Figure 8b: Louder sound [8]* 
 
@@ -152,13 +152,13 @@ Pattern recognition was implemented to infer the environmental conditions. Based
 
 Due to the unavailability of a large amount of such data in the public domain that was researched, a synthetic training dataset was generated. Pairs of temperature and humidity values in ˚C and Percentage (%) respectively were analysed for effect on humans. Various sources such as [9] and [10] were employed to generate the data. The basis of some of the generated data is presented in Fig. 9. 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.011.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.011.jpeg)
 
 *Figure 9: Humidex range and effect on humans [10]*
 
 A snippet of the generated data is available in Fig. 10a and 10b. The data was manually provided with a label out of two classes (1) Harmful and (2) Safe. A total of 168 data points were generated and referenced as training data for pattern recognition using K-Nearest Neighbour (KNN). 
 
-*Figure 10b: Synthetic data of safe conditions![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.012.png)![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.013.png)*
+*Figure 10b: Synthetic data of safe conditions![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.012.png)![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.013.png)*
 
 *Figure 10a: Synthetic data of harmful conditions* 
 
@@ -168,7 +168,7 @@ Using Pyserial – a Python library for serial communication, data was retrieved
 
 A contour plot of the dataset is shown in Fig. 11. On the X-axis are the humidity points and on the Y-axis are the temperature points. The transition from Blue to Yellow saturation is from Safe to Harmful. 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.014.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.014.jpeg)
 
 *Figure 11: Contour plot of the generated dataset*
 
@@ -183,7 +183,7 @@ Some of the reasons behind selecting KNN over other methods to perform the desir
 
 The screen on the sensor board was utilised to  display the output of the final functioning of the algorithm. The flow of data was planned according to Fig. 12.  
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.015.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.015.jpeg)
 
 *Figure 12: Data flow for decision making* 
 
@@ -191,15 +191,15 @@ The output of the decision-making using above mentioned sensors and algorithms i
 
 When the safe conditions are met i.e., the Carbon Monoxide levels are estimated below 400 ppm, the Noise level is not loud and the smoke levels are below 1000 ppm, the safe conditions are met on the board and the screen on the board displays a “Safe” message as shown in Fig. 13. 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.016.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.016.jpeg)
 
 During the testing of the boards, some of the conditions were not meeting in some test case scenarios, where the screen promptly provided the “Unsafe” conditions message as shown in Fig. 14 with reference to sound level in the same condition in Fig. 15 which indicates the environment was clearly very loud (~ 91.5 dB). 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.017.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.017.jpeg)
 
 *Figure 14: Unsafe conditions met (except CO level)*
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.018.jpeg)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.018.jpeg)
 
 *Figure 15: Snip from an opensource app running in parallel to compare the readings from the sensor* 
 
@@ -207,7 +207,7 @@ Similarly, the data from the temperature and humidity sensors were sent to the c
 
 The inferences being made (one every second) were broadcast on the laptop screen. An instance of the temperature and humidity inference using KNN is shown in Fig. 16. 
 
-![](Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.019.png)
+![](images/Aspose.Words.ec6cff54-6b80-4ff0-892a-5b8285a76eb9.019.png)
 
 *Figure 16: Live broadcast on the laptop screen from KNN inference* 
 
